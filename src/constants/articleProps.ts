@@ -16,12 +16,12 @@ export type OptionType = {
 };
 
 export type ArticleStyle = {
-	fontFamilyOption: OptionType,
-	fontSizeOption: OptionType,
-	fontColor: OptionType,
-	contentWidth: OptionType,
-	backgroundColor: OptionType,
-}
+	fontFamilyOption: OptionType;
+	fontSizeOption: OptionType;
+	fontColor: OptionType;
+	contentWidth: OptionType;
+	backgroundColor: OptionType;
+};
 
 export const fontFamilyOptions: OptionType[] & {
 	optionClassName?: FontFamiliesClasses;
