@@ -6,6 +6,8 @@
 	overflow: scroll;
 	transform: translate(-616px);
 	transition: transform 0.5s ease;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .container_open {
@@ -23,6 +25,13 @@
 	padding: 50px 31px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
+	gap: 50px;
+}
+
+.form_childrens {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
 }
 
 .bottomContainer {
